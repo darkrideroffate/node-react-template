@@ -1,0 +1,14 @@
+{
+  "name": "molham-linear-translation-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "darkrideroffate <darkrideroffate@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./api/dist/app.js",
+    "build": " cd api && yarn install && yarn build && cd ../client && yarn install && npm run build"
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
+  }
+}
